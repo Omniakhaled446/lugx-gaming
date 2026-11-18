@@ -10,7 +10,7 @@ import Shop from "./pages/Shop";
 import ProductDetails from "./pages/ProductDetails";
 import Contact from "./pages/Contact";
 
-// مكون صغير يرجع الصفحة للأعلى تلقائياً عند الانتقال بين الصفحات
+
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -42,10 +42,10 @@ export default function App() {
     <Router>
       <ScrollToTop />
       <div className="min-h-screen flex flex-col justify-between bg-white text-[#1e1e1e]">
-        {/* الهيدر الثابت في كل الصفحات */}
+      
         <Navbar cartCount={cart.length} onOpenCart={() => setIsCartOpen(true)} />
 
-        {/* محتوى الصفحات المتغيرة */}
+       
         <main className="flex-grow">
           <Routes>
             <Route
@@ -81,10 +81,10 @@ export default function App() {
           </Routes>
         </main>
 
-        {/* الفوتر الثابت في كل الصفحات */}
+      
         <Footer />
 
-        {/* سلة المشتريات الجانبية (Cart Drawer) */}
+       
         {isCartOpen && (
           <div className="fixed inset-0 z-50 bg-black/50 backdrop-blur-xs flex justify-end">
             <div className="bg-white w-full max-w-md h-full p-6 flex flex-col justify-between shadow-2xl">
