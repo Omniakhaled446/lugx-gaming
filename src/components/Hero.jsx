@@ -13,7 +13,7 @@ export default function Hero({ searchQuery, setSearchQuery }) {
       className="bg-gradient-to-br from-[#0071f8] via-[#0066e0] to-[#0055c4] pt-36 pb-48 rounded-b-[110px] md:rounded-b-[150px] text-white"
     >
       <div className="max-w-7xl mx-auto px-5 grid lg:grid-cols-12 gap-12 items-center">
-        {/* Left Content */}
+ 
         <div className="lg:col-span-7 space-y-6">
           <span className="inline-block text-sm font-semibold uppercase tracking-[2px] text-white/90">
             WELCOME TO LUGX
@@ -25,7 +25,7 @@ export default function Hero({ searchQuery, setSearchQuery }) {
             LUGX Gaming is a modern online game store experience. Discover top-rated action, adventure, and strategy titles with exclusive discounts and instant digital access.
           </p>
 
-          {/* Search Bar */}
+         
           <form
             onSubmit={handleSearch}
             className="relative max-w-md flex items-center bg-white rounded-full p-1.5 shadow-xl mt-4"
@@ -46,7 +46,7 @@ export default function Hero({ searchQuery, setSearchQuery }) {
           </form>
         </div>
 
-        {/* Right Featured Game Card */}
+      
         <div className="lg:col-span-5 flex justify-center lg:justify-end">
           <div className="relative w-full max-w-[380px] rounded-[28px] overflow-visible shadow-2xl">
             <img
