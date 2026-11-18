@@ -22,7 +22,7 @@ export default function ProductDetails({ games, onAddToCart }) {
         </p>
       </div>
 
-      {/* Product Content */}
+ 
       <div className="max-w-7xl mx-auto px-5 py-20">
         <div className="grid lg:grid-cols-12 gap-12 items-center pb-16 border-b border-gray-200">
           <div className="lg:col-span-6">
@@ -51,7 +51,7 @@ export default function ProductDetails({ games, onAddToCart }) {
                 "LUGX Gaming brings you the ultimate digital edition with full multiplayer access, high-definition textures, and instant cloud save support."}
             </p>
 
-            {/* Add to Cart Controls */}
+   
             <div className="flex items-center gap-4 pt-2">
               <input
                 type="number"
