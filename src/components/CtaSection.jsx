@@ -14,7 +14,7 @@ export default function CtaSection() {
   return (
     <section id="cta" className="py-20">
       <div className="max-w-7xl mx-auto px-5 relative">
-        {/* Center Background Image (Desktop) */}
+      
         <div className="hidden lg:block w-[460px] h-[460px] mx-auto rounded-[28px] overflow-hidden shadow-xl">
           <img
             src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80"
@@ -23,9 +23,9 @@ export default function CtaSection() {
           />
         </div>
 
-        {/* Two Floating Cards */}
+
         <div className="grid lg:grid-cols-2 gap-8 lg:-mt-80 relative z-10 items-end">
-          {/* Shop Card */}
+ 
           <div className="bg-[#f7f7f7] p-10 sm:p-14 rounded-[28px] shadow-lg max-w-lg">
             <span className="text-[#ee626b] font-bold text-sm uppercase tracking-widest">
               OUR SHOP
@@ -45,7 +45,7 @@ export default function CtaSection() {
             </a>
           </div>
 
-          {/* Newsletter Card */}
+      
           <div className="bg-[#f7f7f7] p-10 sm:p-14 rounded-[28px] shadow-lg max-w-lg lg:ml-auto">
             <span className="text-[#ee626b] font-bold text-sm uppercase tracking-widest">
               NEWSLETTER
