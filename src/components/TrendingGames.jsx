@@ -5,7 +5,7 @@ export default function TrendingGames({ games, onAddToCart }) {
   return (
     <section id="trending" className="py-24">
       <div className="max-w-7xl mx-auto px-5">
-        {/* Header */}
+      
         <div className="flex flex-wrap items-end justify-between gap-4 mb-12">
           <div>
             <span className="text-[#ee626b] font-bold text-sm uppercase tracking-widest">
@@ -23,7 +23,7 @@ export default function TrendingGames({ games, onAddToCart }) {
           </a>
         </div>
 
-        {/* Grid */}
+       
         {games.length === 0 ? (
           <p className="text-center text-gray-500 py-10">No games match your search.</p>
         ) : (
