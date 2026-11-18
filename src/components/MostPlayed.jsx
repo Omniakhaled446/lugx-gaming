@@ -52,7 +52,7 @@ export default function MostPlayed({ games }) {
         </div>
       </div>
 
-      {/* Game Details Modal */}
+
       {selectedGame && (
         <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
           <div className="bg-white rounded-[28px] max-w-md w-full overflow-hidden shadow-2xl animate-fadeIn">
