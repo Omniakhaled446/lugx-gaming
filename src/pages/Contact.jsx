@@ -11,7 +11,7 @@ export default function Contact() {
 
   return (
     <div>
-      {/* Page Header */}
+    
       <div className="bg-gradient-to-br from-[#0071f8] to-[#0055c4] pt-40 pb-24 rounded-b-[100px] text-center text-white">
         <h1 className="text-4xl sm:text-5xl font-extrabold uppercase tracking-wide">
           Contact Us
@@ -21,9 +21,9 @@ export default function Contact() {
         </p>
       </div>
 
-      {/* Contact Grid */}
+ 
       <div className="max-w-7xl mx-auto px-5 py-20 grid lg:grid-cols-12 gap-12">
-        {/* Left Info Card */}
+    
         <div className="lg:col-span-6 bg-[#f7f7f7] p-10 sm:p-12 rounded-[28px] space-y-6">
           <span className="text-[#ee626b] font-bold text-sm uppercase tracking-widest">
             CONTACT US
@@ -51,7 +51,7 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Right Form */}
+  
         <div className="lg:col-span-6">
           {sent ? (
             <div className="bg-green-100 text-green-800 p-8 rounded-[28px] font-semibold text-center">
