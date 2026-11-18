@@ -29,7 +29,7 @@ export default function Navbar({ cartCount, onOpenCart }) {
       }`}
     >
       <div className="max-w-7xl mx-auto px-5 flex items-center justify-between">
-        {/* Logo */}
+       
         <Link
           to="/"
           className="flex items-center gap-2.5 text-white font-extrabold text-2xl tracking-wider"
@@ -40,7 +40,7 @@ export default function Navbar({ cartCount, onOpenCart }) {
           <span>LUGX</span>
         </Link>
 
-        {/* Desktop Menu */}
+    
         <nav className="hidden lg:flex items-center gap-2">
           {navItems.map((item) => {
             const isActive = location.pathname === item.path;
@@ -60,7 +60,7 @@ export default function Navbar({ cartCount, onOpenCart }) {
           })}
         </nav>
 
-        {/* Right Actions */}
+      
         <div className="flex items-center gap-3">
           <button
             onClick={onOpenCart}
@@ -91,7 +91,7 @@ export default function Navbar({ cartCount, onOpenCart }) {
         </div>
       </div>
 
-      {/* Mobile Dropdown */}
+     
       {mobileMenu && (
         <div className="lg:hidden bg-white mx-5 mt-3 rounded-3xl shadow-2xl p-4 flex flex-col gap-2 text-center">
           {navItems.map((item) => (
