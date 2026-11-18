@@ -13,7 +13,7 @@ export default function Shop({ games, onAddToCart }) {
 
   return (
     <div>
-      {/* Page Header */}
+     
       <div className="bg-gradient-to-br from-[#0071f8] to-[#0055c4] pt-40 pb-24 rounded-b-[100px] text-center text-white">
         <h1 className="text-4xl sm:text-5xl font-extrabold uppercase tracking-wide">
           Our Shop
@@ -23,7 +23,6 @@ export default function Shop({ games, onAddToCart }) {
         </p>
       </div>
 
-      {/* Filter Buttons & Games Grid */}
       <div className="max-w-7xl mx-auto px-5 py-20">
         <div className="flex flex-wrap justify-center gap-3 mb-14">
           {filterTabs.map((tab) => (
