@@ -11,7 +11,7 @@ export default function ProductDetails({ games, onAddToCart }) {
 
   return (
     <div>
-      {/* Page Header */}
+   
       <div className="bg-gradient-to-br from-[#0071f8] to-[#0055c4] pt-40 pb-24 rounded-b-[100px] text-center text-white">
         <h1 className="text-4xl sm:text-5xl font-extrabold uppercase tracking-wide">
           {game.title}
